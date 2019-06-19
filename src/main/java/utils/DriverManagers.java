@@ -23,7 +23,6 @@ public class DriverManagers {
 
         if (driverType.equals(CHROME)) {
             WebDriverManager.chromedriver().setup();
-//            driverManager = new ChromeDriver(OptionsManager.getChromeOptions());
             try {
                 driverManager = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), OptionsManager.getChromeOptions());
             } catch (MalformedURLException e) {
@@ -31,7 +30,6 @@ public class DriverManagers {
             }
         } else if (driverType.equals(FIREFOX)) {
             WebDriverManager.firefoxdriver().setup();
-//            driverManager = new FirefoxDriver(OptionsManager.getFirefoxOptions());
             try {
                 driverManager = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), OptionsManager.getFirefoxOptions());
             } catch (MalformedURLException e) {
