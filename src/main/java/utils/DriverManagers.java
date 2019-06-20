@@ -26,14 +26,14 @@ public class DriverManagers {
             try {
                 driverManager = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), OptionsManager.getChromeOptions());
             } catch (MalformedURLException e) {
-                System.out.println("");
+                e.printStackTrace();
             }
         } else if (driverType.equals(FIREFOX)) {
             WebDriverManager.firefoxdriver().setup();
             try {
                 driverManager = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), OptionsManager.getFirefoxOptions());
             } catch (MalformedURLException e) {
-                System.out.println("");
+                e.printStackTrace();
             }
         }
         return driverManager;
