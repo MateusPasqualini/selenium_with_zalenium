@@ -1,14 +1,12 @@
 ## selenium_with_zalenium
 
 
-#### Prerequisites
-* Docker engine rodando, versão >= 1.11.1
+#### Pre-requisitos
 
-<b>Configurar</b>
 1. [Java](https://openjdk.java.net/)
 2. [Selenium](https://www.seleniumhq.org/)
 3. [Docker](https://www.docker.com/)
-
+* Docker engine rodando, versão >= 1.11.1
 
 ## Instalação:
 ### Clone
