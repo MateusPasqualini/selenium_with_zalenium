@@ -1,5 +1,5 @@
 ## selenium_with_zalenium
-
+ # Exemplo de teste automatizado utilizando docker-compose e zalenium. 
 
 #### Pre-requisitos
 
@@ -32,7 +32,7 @@ docker-compose up --force-recreate
 mvn clean test
 ```
 ## Administrando e visualizando
-* [dashboard](http://localhost:4444/dashboard): veja todas as informações agregadas depois dos testes.
+* [dashboard](http://localhost:4444/dashboard): veja todas as informações agregadas após os testes.
 <p align="center">
     <img id="dashboard" width="600" src="https://raw.githubusercontent.com/zalando/zalenium/master/docs/img/dashboard.gif" />
   </p>
