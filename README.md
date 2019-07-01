@@ -1,5 +1,5 @@
 # selenium_with_zalenium
-Exemplo de testes automatizados com java e selenium utilizando containers em docker, utilizando docker-compose e zalenium. 
+Exemplo de testes automatizados com java e selenium rodando em containers com docker, utilizando docker-compose e zalenium. 
 
 #### Pre-requisitos
 
