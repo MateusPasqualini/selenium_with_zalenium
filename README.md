@@ -6,6 +6,7 @@
 1. [Java](https://openjdk.java.net/)
 2. [Selenium](https://www.seleniumhq.org/)
 3. [Docker](https://www.docker.com/)
+4. [Docker-compose](https://docs.docker.com/compose/)
 * Docker engine rodando, versão >= 1.11.1
 
 ## Instalação:
@@ -15,10 +16,10 @@
 $ git clone https://github.com/MateusPasqualini/selenium_with_zalenium.git
 ```
 
-### Setup
+### Setting up Dependecies
 - Para garantir que todas as dependências foram importadas faça:
 ```
-$ mvn clean install 
+$ mvn clean compile 
 ```
 ### Setting up Zalenium
 - Para rodar os containers utilize:
