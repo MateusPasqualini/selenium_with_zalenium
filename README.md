@@ -31,7 +31,7 @@ docker-compose up --force-recreate
 ```
 mvn clean test
 ```
-## Em funcionamento
+## Administrando e visualizando
 * [dashboard](http://localhost:4444/dashboard): veja todas as informações agregadas depois dos testes.
 <p align="center">
     <img id="dashboard" width="600" src="https://raw.githubusercontent.com/zalando/zalenium/master/docs/img/dashboard.gif" />
