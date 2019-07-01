@@ -24,6 +24,10 @@ $ mvn clean compile
 ### Setting up Zalenium
 - Para rodar os containers utilize:
 ```
+docker-compose up
+```
+- Para rodar e reiniciar os containers utilize:
+```
 docker-compose up --force-recreate
 ```
 ## Tests
