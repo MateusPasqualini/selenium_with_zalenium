@@ -1,5 +1,5 @@
-## selenium_with_zalenium
- # Exemplo de teste automatizado utilizando docker-compose e zalenium. 
+# selenium_with_zalenium
+## Exemplo de teste automatizado utilizando docker-compose e zalenium. 
 
 #### Pre-requisitos
 
