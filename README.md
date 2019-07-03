@@ -36,15 +36,17 @@ docker-compose up --force-recreate
 mvn clean test
 ```
 ## Administrando e visualizando
+* para visualizar todos os testes rodando ao vivo: [http://localhost:4444/grid/admin/live](http://localhost:4444/grid/admin/live)
+<p align="center">
+  <img id="live-preview" width="600" src="https://raw.githubusercontent.com/zalando/zalenium/master/docs/img/live_preview.gif" />
+</p>
+
+
 * [dashboard](http://localhost:4444/dashboard): veja todas as informações agregadas após os testes.
 <p align="center">
     <img id="dashboard" width="600" src="https://raw.githubusercontent.com/zalando/zalenium/master/docs/img/dashboard.gif" />
   </p>
   
-* Testes rodando ao vivo: [http://localhost:4444/grid/admin/live](http://localhost:4444/grid/admin/live)
-<p align="center">
-  <img id="live-preview" width="600" src="https://raw.githubusercontent.com/zalando/zalenium/master/docs/img/live_preview.gif" />
-</p>
 
 ### Informações adicionais:
 Para mais informações sobre Zalenium acesse: [Zalenium](https://opensource.zalando.com/zalenium/#docker)
