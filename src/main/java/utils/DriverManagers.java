@@ -23,14 +23,12 @@ public class DriverManagers {
     public static synchronized void setTLDriver(String browser) {
         if (browser.equals("firefox")) {
             try {
-                WebDriverManager.firefoxdriver().setup();
                 tlDriver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), OptionsManager.getFirefoxOptions()));
             } catch (MalformedURLException e) {
                 logger.log(Level.SEVERE, "Endereço especificado não encontrado");
             }
         } else if (browser.equals("chrome")) {
             try {
-                WebDriverManager.chromedriver().setup();
                 tlDriver.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), OptionsManager.getChromeOptions()));
             } catch (MalformedURLException e) {
                 logger.log(Level.SEVERE, "Endereço especificado não encontrado");
